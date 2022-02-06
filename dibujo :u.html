@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Dibujando en canvas</title>
+      <style>
+        body
+        {
+          background-color: rgb(41, 38, 38);
+          color: rgb(255, 255, 255);
+        }
+        strong
+        {
+          background-color: rgb(31, 109, 24);
+        }
+      </style>
+    </head>
+
+    <body>
+      <h1>Dibujando en canvas</h1>
+      <p>
+        Cuantas lineas quieres <br>
+        <input type="text" id="texto_lineas" />
+        <input type="button" value="XD" id="botoncito" />
+        Elegir color:
+        <input type="color" id="elegir_color" />
+        <br />
+        <input type="button" value="borrar dibujo :u" id="borrar" />
+      </p>
+      <canvas width="500" height="500" id="dibujito"></canvas>
+      <p><strong>Asi queda</strong></p>
+      <script src="dibujo.js"></script>
+</body>
+</html>
